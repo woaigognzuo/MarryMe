@@ -1,2 +1,8 @@
-/*
 !.gitignore
+/MarryMe/.vs
+/MarryMe/Binaries
+/MarryMe/DerivedDataCache
+/MarryMe/Intermediate
+/MarryMe/Saved
+/MarryMe/Script
+/MarryMe/MarryMe.sln
