@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class MarryMeTarget : TargetRules
 {
-	public MarryMeTarget(TargetInfo Target) : base(Target)
+	public MarryMeTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("MarryMe");
+		ExtraModuleNames.AddRange( new string[] { "MarryMe" } );
 	}
 }

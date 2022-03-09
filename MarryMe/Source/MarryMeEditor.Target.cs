@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class MarryMeEditorTarget : TargetRules
 {
-	public MarryMeEditorTarget(TargetInfo Target) : base(Target)
+	public MarryMeEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("MarryMe");
+		ExtraModuleNames.AddRange( new string[] { "MarryMe" } );
 	}
 }
